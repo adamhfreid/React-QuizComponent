@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import QuizQuestionButton from './QuizQuestionButton.js'
 
-let quizData = require('./quiz_data.json')
-
 class QuizQuestion extends Component {
   constructor(props){
     super(props)
